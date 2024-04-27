@@ -71,6 +71,62 @@ const myFunction = function(){
     console.log("hello world");
 }
 
+// stack
+
+let myyouTubeName = "tasveerofficial"
+let anothername = myyouTubeName
+anothername = "chaiaurcode"
+
+console.log(anothername);
+
+console.log(myyouTubeName);
+
+// Heap 
+let user = {
+    email : "tasveerfatema@gmail.com",
+    upi: "tasveer@ybl"
+}
+
+let userTwo = user
+
+user.email ="tassujaan@gmail.com"
+
+console.log(user.email);
+console.log(userTwo.email);
+
+//String 
+let Name = "tasveer"
+let repocount = 50
+
+console.log(`hello my name is ${name} and my repocount is ${repocount}`);
+
+const gameName  = new String('tasveer')
+
+console.log(gameName[0]);
+console.log(gameName.length);
+
+console.log(gameName.indexOf('t'));
+console.log(gameName.charAt(2));
+
+const newString = gameName.substring(0,4)
+console.log(newString);
+
+const anotherString = gameName.slice(0,4)
+console.log(anotherString);
+
+
+// for removing gap
+const newStringone = "    hitesh  "
+console.log(newStringone);
+console.log(newStringone.trim());
+
+const url = "https://tasveer.com/tasveer%20fatama"
+console.log(url.replace('%20', '-'));
+console.log(url.includes('tasveer'));
+console.log(url.includes('https'));
+
+
+
 
 
 
