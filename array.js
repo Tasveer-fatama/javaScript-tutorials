@@ -15,4 +15,11 @@ accountPassword = "21223244"
 
 console.table([accountPassword,accountEmail,accountCity,accountId, accountState])
 
+let name = "hitesh"
+let age=18
+let isLoggedIn = false
+let state;
+
+console.log(typeof isLoggedIn);
+
 
